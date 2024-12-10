@@ -60,7 +60,7 @@ def fetch_data(query,table_name):
     db.commit()
     db.close()
 
-
+ 
 company_name=fetch_data("company_name","company_name")[0][0]
 def fetch_data_like(query,table_name,filter_by,like_value):
     db = sqlite3.connect(database_name)
