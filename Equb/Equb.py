@@ -15,7 +15,7 @@ from calanders import *
 from scan_qrcode import scan_qrcode
 from create_pdf import create_pdf
 
-
+# print('moya')
 #**************************************variables**************************************************
 customer_name=''
 company_title='MOYA '
